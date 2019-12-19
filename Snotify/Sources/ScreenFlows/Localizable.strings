@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Snotify
+
+  Created by Ramy Wagdy on 12/19/19.
+  Copyright © 2019 Organization. All rights reserved.
+*/
+
+"global.error-message.unexpected-error" = "Unexpected error occured, please try again";
+"shopify.orders.no-order-label" = "No orders yet!";
+"shopify.orders.get-orders-button.label" = "Get Orders";
+"shopify.orders.error-message.missing-fields" = "Please fill in all the fields";
