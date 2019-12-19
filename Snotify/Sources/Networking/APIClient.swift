@@ -14,7 +14,7 @@ struct APIClient {
 
         var ordersUrlPath = "\(baseUrl)/orders.json"
         if let limit = limit {
-            ordersUrlPath.append("?limit=\(limit)")
+            ordersUrlPath.append("?limit=\(limit)&status=any&fulfillment_status=any")
         }
         guard let ordersUrl = URL(string: ordersUrlPath) else { return }
 
